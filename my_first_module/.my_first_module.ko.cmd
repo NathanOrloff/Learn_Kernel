@@ -1,1 +1,0 @@
-cmd_/home/nathan/Projects/Learn_Kernel/my_first_module/my_first_module.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/nathan/Projects/Learn_Kernel/my_first_module/my_first_module.ko /home/nathan/Projects/Learn_Kernel/my_first_module/my_first_module.o /home/nathan/Projects/Learn_Kernel/my_first_module/my_first_module.mod.o;  true
