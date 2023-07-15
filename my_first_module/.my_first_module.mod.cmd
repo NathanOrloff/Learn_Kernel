@@ -1,0 +1,1 @@
+cmd_/home/nathan/Projects/Learn_Kernel/my_first_module/my_first_module.mod := printf '%s\n'   my_first_module.o | awk '!x[$$0]++ { print("/home/nathan/Projects/Learn_Kernel/my_first_module/"$$0) }' > /home/nathan/Projects/Learn_Kernel/my_first_module/my_first_module.mod
